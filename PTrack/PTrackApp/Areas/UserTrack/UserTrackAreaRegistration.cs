@@ -16,8 +16,8 @@ namespace PTrackApp.Areas.UserTrack
         {
             context.MapRoute(
                 "UserTrack_default",
-                "UserTrack/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                "youtrack/{controller}/{action}/{id}",
+                new { action = "Disboard", controller = "UserTrack", id = UrlParameter.Optional }
             );
         }
     }

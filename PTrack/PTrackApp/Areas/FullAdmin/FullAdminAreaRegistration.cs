@@ -17,7 +17,7 @@ namespace PTrackApp.Areas.FullAdmin
             context.MapRoute(
                 "FullAdmin_default",
                 "FullAdmin/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                new { action = "Disboard", controller = "FullAdmin", id = UrlParameter.Optional }
             );
         }
     }

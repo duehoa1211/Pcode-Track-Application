@@ -148,7 +148,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\FullAdmin\Controllers\FullAdminController.cs" />
     <Compile Include="Areas\FullAdmin\FullAdminAreaRegistration.cs" />
+    <Compile Include="Areas\UserTrack\Controllers\UserTrackController.cs" />
     <Compile Include="Areas\UserTrack\UserTrackAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -191,6 +193,10 @@
     <Content Include="Content\FontAwesome\webfonts\fa-solid-900.ttf" />
     <Content Include="Content\FontAwesome\webfonts\fa-solid-900.woff" />
     <Content Include="Content\FontAwesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="Areas\FullAdmin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\FullAdmin\Views\FullAdmin\Disboard.cshtml" />
+    <Content Include="Areas\UserTrack\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\UserTrack\Views\UserTrack\Disboard.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -219,16 +225,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\FullAdmin\Controllers\" />
     <Folder Include="Areas\FullAdmin\css\" />
     <Folder Include="Areas\FullAdmin\js\" />
     <Folder Include="Areas\FullAdmin\Models\" />
-    <Folder Include="Areas\FullAdmin\Views\Shared\" />
-    <Folder Include="Areas\UserTrack\Controllers\" />
     <Folder Include="Areas\UserTrack\css\" />
     <Folder Include="Areas\UserTrack\js\" />
     <Folder Include="Areas\UserTrack\Models\" />
-    <Folder Include="Areas\UserTrack\Views\Shared\" />
     <Folder Include="Files\Ecxel\" />
     <Folder Include="Files\Image\" />
     <Folder Include="Files\Pdf\" />

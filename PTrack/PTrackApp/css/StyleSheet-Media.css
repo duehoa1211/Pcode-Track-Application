@@ -1,0 +1,24 @@
+﻿@media (max-width: 990px) {
+    .AreaLogin {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 5%;
+    }
+
+    .frm-Login {
+        width: 90%;
+        height: auto;
+        background: #fff;
+        margin: auto;
+        position: relative;
+    }
+
+        .frm-Login .frm-footer div {
+            display: grid;
+        }
+
+    footer {
+        display: none;
+    }
+}

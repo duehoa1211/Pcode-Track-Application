@@ -1,0 +1,115 @@
+﻿body {
+    position: relative;
+    width: auto;
+    min-height: 100vh;
+    background: url('../Files/Image/pcodewallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.AreaLogin {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 30%;
+}
+
+.frm-Login {
+    width: 40%;
+    height: auto;
+    background: #fff;
+    margin: auto;
+    position: relative;
+}
+
+    .frm-Login form {
+    }
+
+    .frm-Login .frm-Header {
+        width: 100%;
+        min-height: 10px;
+        background: #f0f3ff;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+        .frm-Login .frm-Header a {
+        }
+            .frm-Login .frm-Header a img {
+                width: 120px;
+                height: auto;
+            }
+
+    .frm-Login .frm-password {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .frm-Login .frm-Name,
+    .frm-Login .frm-password,
+    .frm-Login .frm-rememberme {
+        margin: 10px;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+    .frm-Login .frm-Name span,
+    .frm-Login .frm-password span {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .frm-Login .frm-Name input,
+    .frm-Login .frm-password input {
+        width: 100%;
+        padding: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border-radius: 15px;
+        border: 1px solid #f0f3ff;
+    }
+
+        .frm-Login .frm-Name input:focus,
+        .frm-Login .frm-password input:focus {
+            outline-width: 0;
+        }
+
+    .frm-Login .frm-footer {
+        background: #f0f3ff;
+        text-align: end;
+    }
+
+            .frm-Login .frm-footer .frm-Btn-forget button {
+                background: #ff12129c;
+            }
+
+            .frm-Login .frm-footer .frm-Btn-log button {
+                background: #54ad4594;
+            }
+
+        .frm-Login .frm-footer div {
+            display: inline;
+        }
+
+            .frm-Login .frm-footer div button {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 5px;
+                padding-right: 5px;
+                margin: 10px;
+                color: #fff;
+                border: none;
+                min-width: 150px;
+                font-weight: 700;
+            }
